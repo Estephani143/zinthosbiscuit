@@ -37,7 +37,7 @@ h1 {
     text-transform: uppercase;
     position: absolute;
     color: #ffffff;
-    margin: 100px auto; /* Margem superior/inferior de 100px e centralizado horizontalmente */
+    margin: 100px auto;
 	left: 330px;
 	top: 200px;
 	margin-top: 80px;
@@ -151,7 +151,7 @@ section a:hover:after {
             width: 100%;
 			border-top: 2px #514C4C solid;
 			text-align: center;
-			padding: -13em; /* Ajuste o padding conforme necessário */
+			padding: -13em;
 			position: fixed;
 			font-size: 9pt;
         }
