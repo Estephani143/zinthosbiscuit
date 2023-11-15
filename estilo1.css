@@ -56,7 +56,34 @@ li:hover {
   
 }
 
-	
+@media screen and (max-width: 768px) {
+    h1 {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    ul {
+        text-align: center;
+        left: 45%;
+        top: 300px;
+        transform: translateX(-50%);
+        margin-top: 0; 
+        font-size: 8pt;
+        white-space: nowrap;
+        overflow-x: auto; 
+    }
+
+    li {
+        display: inline-block;
+        text-align: center;
+        padding: 1px;
+        margin: 1px;
+    }
+}	
        
 
         nav {
